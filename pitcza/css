@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #D32F2F;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFEB3B;
+}
+
+/* Seções principais */
+main {
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#sobre h2, #cardapio h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #D32F2F;
+}
+
+#sobre p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+#cardapio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cardapio-item {
+    margin-bottom: 20px;
+}
+
+.cardapio-item h3 {
+    font-size: 1.5rem;
+    color: #D32F2F;
+}
+
+.cardapio-item p {
+    font-size: 1.1rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social {
+    margin-top: 10px;
+}
+
+footer .social a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+footer .social a:hover {
+    color: #FFEB3B;
+}
+
